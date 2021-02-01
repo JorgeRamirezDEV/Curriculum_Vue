@@ -1,0 +1,178 @@
+{
+    "español": [
+
+        {
+            "itemsmenu":[
+                {"menu1": "Sobre mí"},
+                {"menu2": "Experiencia Laboral"},
+                {"menu3": "Educación"},
+                {"menu4": "Destrezas"},
+                {"menu5": "Proyectos"},
+                {"menu6": "Idiomas"},
+                {"menu7": "Referencias"},
+                {"menu8": "Contacto"},
+                {"idioma1": "Español"},
+                {"idioma2": "Inglés"}
+            ]
+        },
+         
+
+
+        {
+            "sobremi":[
+                {"nombre": "Jorge"},  
+                {"apellidos": "Ramírez Molina"},
+                {"fechaNac": "24 de febrero de 1998"},
+                {"direccion": "Granada, España"},
+                {"descripcion": "Si estás buscando un Desarrollador web polivalente, has llegado al sitio indicado. Conocimientos en JavaScript, JQuery, HTML, CSS, BOOTSRAP, VueJS y VueCli."},
+                {"correo": "jorgeramirezdeveloper@gmail.com"},
+                {"telefono": "+34 625631310"},
+                {"github": "https://github.com/JorgeRamirezDEV"},
+                {"linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"}
+            ]
+        },    
+        
+        {
+            "experiencia":[
+                {   
+                    "texto":[
+                        {"titulo": "Experiencia Laboral"},
+                        {"descripcion": "Trabajos que he realizado en el mundo laboral"}
+                    ]
+                },
+                {
+                    "trabajo1":[
+                        {"nombre": "Barman"},
+                        {"lugar": ""},
+                        {"descripcion": ""},
+                        {"fechaInicio": ""},
+                        {"fechaFinal": ""}
+                    ]
+                },
+                {
+                    "trabajo2":[
+                        {"nombre": "Profesor de inglés"},
+                        {"lugar": ""},
+                        {"descripcion": ""},
+                        {"fechaInicio": ""},
+                        {"fechaFinal": ""}
+                    ]
+                }
+            ]
+        },
+
+        {
+            "educacion":[
+                {   
+                    "texto":[
+                        {"titulo": "Habilidades"},
+                        {"descripcion": "Lenguajes de programación y otros conocimientos"}
+                    ]
+                },
+                {
+                    "estudio1":[
+                        {"nombre": "Bachillerato"},
+                        {"lugar": "I.E.S Aricel"},
+                        {"descripcion": "Bachillerato de ciencias"},
+                        {"fecha": "12-02-2012"}
+                    ]
+                },
+                {
+                    "estudio1":[
+                        {"nombre": "Grado superior"},
+                        {"lugar": "I.E.S Francisco Ayala"},
+                        {"descripcion": "Desarrollo de aplicaciones web"},
+                        {"fecha": "12-02-2012"}
+                    ]
+                }
+                
+            ]
+        },
+
+        {
+            "habilidades":[
+                {   
+                    "texto":[
+                        {"titulo": "Habilidades"},
+                        {"descripcion": "Lenguajes de programación y otros conocimientos"}
+                    ]
+                },
+                {   
+                    "habilidad1":[
+                        {"nombre": "JavaScript"},
+                        {"img": ""}
+                    ]
+                },
+                {
+                    "habilidad2":[
+                        {"nombre": "HTML"},
+                        {"img": ""}
+                    ]
+                },
+                {
+                    "habilidad3":[
+                        {"nombre": "CSS"},
+                        {"img": ""}
+                    ]
+                },
+                {
+                    "habilidad4":[
+                        {"nombre": "PHP"},
+                        {"img": ""}
+                    ]
+                },
+                {
+                    "habilidad5":[
+                        {"nombre": "VUE"},
+                        {"img": ""}
+                    ]
+                },
+                {
+                    "habilidad6":[
+                        {"nombre": "BOOTSTRAP"},
+                        {"img": ""}
+                    ]
+                }
+            ]
+        },
+        {
+            "Proyectos":[
+                {   
+                    "texto":[
+                        {"titulo": "Proyectos"},
+                        {"descripcion": "Aquí se encuentran los proyectos que he desarrollado"}
+                    ]
+                },
+                {   
+                    "proyecto1":[
+                        {"nombre": "Ping-pong"},
+                        {"img": ""},
+                        {"link": ""}
+                    ]
+                },
+                {
+                    "proyecto2":[
+                        {"nombre": "Landing Page"},
+                        {"img": ""},
+                        {"link": ""}
+                    ]
+                },
+                {
+                    "proyecto3":[
+                        {"nombre": "Wikidogs"},
+                        {"img": ""},
+                        {"link": ""}
+                    ]
+                },
+                {
+                    "propyecto4":[
+                        {"nombre": "PHP"},
+                        {"img": ""},
+                        {"link": ""}
+                    ]
+                }
+            ]
+        }
+
+    ]
+}
