@@ -26,7 +26,7 @@
                 "direccion": "Granada, España",
                 "descripcion": "Si estás buscando un Desarrollador web polivalente, has llegado al sitio indicado. Conocimientos en JavaScript, JQuery, HTML, CSS, BOOTSRAP, VueJS y VueCli.",
                 "correo": "jorgeramirezdeveloper@gmail.com",
-                "telefono": "+34 625631310",
+                "telefono": "625631310",
                 "github": "https://github.com/JorgeRamirezDEV",
                 "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"
             }
@@ -133,6 +133,68 @@
                         "img": ""
                     }
                 }
+            ]
+        },
+        {
+            "idiomas":[
+                {   
+                    "texto":{
+                        "titulo": "Idiomas",
+                        "descripcion": "Estos son los idiomas que conozco"
+                    }
+                },
+                {
+                    "español":{
+                        "nombre": "Español",
+                        "hablado": "Nativo",
+                        "escrito": "Nativo",
+                        "leido": "Nativo"
+                    } 
+                },
+                {
+                    "inglés":{
+                        "nombre": "Inglés",
+                        "hablado": "B2",
+                        "escrito": "B2",
+                        "leido": "B2"
+                    }
+                }
+                
+            ]
+        },
+        {
+            "referencias":[
+                {   
+                    "texto":{
+                        "titulo": "Referencias",
+                        "descripcion": "Personas que han trabajado con nosotros"
+                    }
+                },
+                {
+                    "persona1":{
+                        "nombre": "",
+                        "trabajo": "",
+                        "img": "",
+                        "descripcion": ""
+                    } 
+                },
+                {
+                    "persona1":{
+                        "nombre": "",
+                        "trabajo": "",
+                        "img": "",
+                        "descripcion": ""
+                    } 
+                },
+                {
+                    "persona1":{
+                        "nombre": "",
+                        "trabajo": "",
+                        "img": "",
+                        "descripcion": ""
+                    } 
+                }
+                
             ]
         },
         {
@@ -315,6 +377,68 @@
                         "img": ""
                     }
                 }
+            ]
+        },
+        {
+            "idiomas":[
+                {   
+                    "texto":{
+                        "titulo": "Languages",
+                        "descripcion": "This are the languages that I domain"
+                    }
+                },
+                {
+                    "español":{
+                        "nombre": "Spanish",
+                        "hablado": "Native",
+                        "escrito": "Native",
+                        "leido": "Native"
+                    } 
+                },
+                {
+                    "inglés":{
+                        "nombre": "English",
+                        "hablado": "B2",
+                        "escrito": "B2",
+                        "leido": "B2"
+                    }
+                }
+                
+            ]
+        },
+        {
+            "referencias":[
+                {   
+                    "texto":{
+                        "titulo": "References",
+                        "descripcion": "People that have been working with ME"
+                    }
+                },
+                {
+                    "persona1":{
+                        "nombre": "",
+                        "trabajo": "",
+                        "img": "",
+                        "descripcion": ""
+                    } 
+                },
+                {
+                    "persona1":{
+                        "nombre": "",
+                        "trabajo": "",
+                        "img": "",
+                        "descripcion": ""
+                    } 
+                },
+                {
+                    "persona1":{
+                        "nombre": "",
+                        "trabajo": "",
+                        "img": "",
+                        "descripcion": ""
+                    } 
+                }
+                
             ]
         },
         {
