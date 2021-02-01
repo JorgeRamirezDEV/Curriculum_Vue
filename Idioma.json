@@ -2,61 +2,61 @@
     "español": [
 
         {
-            "itemsmenu":[
-                {"menu1": "Sobre mí"},
-                {"menu2": "Experiencia Laboral"},
-                {"menu3": "Educación"},
-                {"menu4": "Destrezas"},
-                {"menu5": "Proyectos"},
-                {"menu6": "Idiomas"},
-                {"menu7": "Referencias"},
-                {"menu8": "Contacto"},
-                {"idioma1": "Español"},
-                {"idioma2": "Inglés"}
-            ]
+            "itemsmenu":{
+                "menu1": "Sobre mí",
+                "menu2": "Experiencia Laboral",
+                "menu3": "Educación",
+                "menu4": "Destrezas",
+                "menu5": "Proyectos",
+                "menu6": "Idiomas",
+                "menu7": "Referencias",
+                "menu8": "Contacto",
+                "idioma1": "Español",
+                "idioma2": "Inglés"
+            }
         },
          
 
 
         {
-            "sobremi":[
-                {"nombre": "Jorge"},  
-                {"apellidos": "Ramírez Molina"},
-                {"fechaNac": "24 de febrero de 1998"},
-                {"direccion": "Granada, España"},
-                {"descripcion": "Si estás buscando un Desarrollador web polivalente, has llegado al sitio indicado. Conocimientos en JavaScript, JQuery, HTML, CSS, BOOTSRAP, VueJS y VueCli."},
-                {"correo": "jorgeramirezdeveloper@gmail.com"},
-                {"telefono": "+34 625631310"},
-                {"github": "https://github.com/JorgeRamirezDEV"},
-                {"linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"}
-            ]
+            "sobremi":{
+                "nombre": "Jorge",  
+                "apellidos": "Ramírez Molina",
+                "fechaNac": "24 de febrero de 1998",
+                "direccion": "Granada, España",
+                "descripcion": "Si estás buscando un Desarrollador web polivalente, has llegado al sitio indicado. Conocimientos en JavaScript, JQuery, HTML, CSS, BOOTSRAP, VueJS y VueCli.",
+                "correo": "jorgeramirezdeveloper@gmail.com",
+                "telefono": "+34 625631310",
+                "github": "https://github.com/JorgeRamirezDEV",
+                "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"
+            }
         },    
         
         {
             "experiencia":[
                 {   
-                    "texto":[
-                        {"titulo": "Experiencia Laboral"},
-                        {"descripcion": "Trabajos que he realizado en el mundo laboral"}
-                    ]
+                    "texto":{
+                        "titulo": "Experiencia Laboral",
+                        "descripcion": "Trabajos que he realizado en el mundo laboral"
+                    }
                 },
                 {
-                    "trabajo1":[
-                        {"nombre": "Barman"},
-                        {"lugar": ""},
-                        {"descripcion": ""},
-                        {"fechaInicio": ""},
-                        {"fechaFinal": ""}
-                    ]
+                    "trabajo1":{
+                        "nombre": "Barman",
+                        "lugar": "",
+                        "descripcion": "",
+                        "fechaInicio": "",
+                        "fechaFinal": ""
+                    }
                 },
                 {
-                    "trabajo2":[
-                        {"nombre": "Profesor de inglés"},
-                        {"lugar": ""},
-                        {"descripcion": ""},
-                        {"fechaInicio": ""},
-                        {"fechaFinal": ""}
-                    ]
+                    "trabajo2":{
+                        "nombre": "Profesor de inglés",
+                        "lugar": "",
+                        "descripcion": "",
+                        "fechaInicio": "",
+                        "fechaFinal": ""
+                    }
                 }
             ]
         },
@@ -64,26 +64,26 @@
         {
             "educacion":[
                 {   
-                    "texto":[
-                        {"titulo": "Habilidades"},
-                        {"descripcion": "Lenguajes de programación y otros conocimientos"}
-                    ]
+                    "texto":{
+                        "titulo": "Educación",
+                        "descripcion": "Estudios en los que he tomado parte"
+                    }
                 },
                 {
-                    "estudio1":[
-                        {"nombre": "Bachillerato"},
-                        {"lugar": "I.E.S Aricel"},
-                        {"descripcion": "Bachillerato de ciencias"},
-                        {"fecha": "12-02-2012"}
-                    ]
+                    "estudio1":{
+                        "nombre": "Bachillerato",
+                        "lugar": "I.E.S Aricel",
+                        "descripcion": "Bachillerato de ciencias",
+                        "fecha": "12-02-2012"
+                    } 
                 },
                 {
-                    "estudio1":[
-                        {"nombre": "Grado superior"},
-                        {"lugar": "I.E.S Francisco Ayala"},
-                        {"descripcion": "Desarrollo de aplicaciones web"},
-                        {"fecha": "12-02-2012"}
-                    ]
+                    "estudio1":{
+                        "nombre": "Grado superior",
+                        "lugar": "I.E.S Francisco Ayala",
+                        "descripcion": "Desarrollo de aplicaciones web",
+                        "fecha": "12-02-2012"
+                    }
                 }
                 
             ]
@@ -92,87 +92,274 @@
         {
             "habilidades":[
                 {   
-                    "texto":[
-                        {"titulo": "Habilidades"},
-                        {"descripcion": "Lenguajes de programación y otros conocimientos"}
-                    ]
+                    "texto":{
+                        "titulo": "Habilidades",
+                        "descripcion": "Lenguajes de programación y otros conocimientos"
+                    }
                 },
                 {   
-                    "habilidad1":[
-                        {"nombre": "JavaScript"},
-                        {"img": ""}
-                    ]
+                    "habilidad1":{
+                        "nombre": "JavaScript",
+                        "img": ""
+                    }
                 },
                 {
-                    "habilidad2":[
-                        {"nombre": "HTML"},
-                        {"img": ""}
-                    ]
+                    "habilidad2":{
+                        "nombre": "HTML",
+                        "img": ""
+                    }
                 },
                 {
-                    "habilidad3":[
-                        {"nombre": "CSS"},
-                        {"img": ""}
-                    ]
+                    "habilidad3":{
+                        "nombre": "CSS",
+                        "img": ""
+                    }
                 },
                 {
-                    "habilidad4":[
-                        {"nombre": "PHP"},
-                        {"img": ""}
-                    ]
+                    "habilidad4":{
+                        "nombre": "PHP",
+                        "img": ""
+                    }
                 },
                 {
-                    "habilidad5":[
-                        {"nombre": "VUE"},
-                        {"img": ""}
-                    ]
+                    "habilidad5":{
+                        "nombre": "VUE",
+                        "img": ""
+                    }
                 },
                 {
-                    "habilidad6":[
-                        {"nombre": "BOOTSTRAP"},
-                        {"img": ""}
-                    ]
+                    "habilidad6":{
+                        "nombre": "BOOTSTRAP",
+                        "img": ""
+                    }
                 }
             ]
         },
         {
             "Proyectos":[
                 {   
-                    "texto":[
-                        {"titulo": "Proyectos"},
-                        {"descripcion": "Aquí se encuentran los proyectos que he desarrollado"}
-                    ]
+                    "texto":{
+                        "titulo": "Proyectos",
+                        "descripcion": "Aquí se encuentran los proyectos que he desarrollado"
+                    }
                 },
                 {   
-                    "proyecto1":[
-                        {"nombre": "Ping-pong"},
-                        {"img": ""},
-                        {"link": ""}
-                    ]
+                    "proyecto1":{
+                        "nombre": "Ping-pong",
+                        "img": "",
+                        "link": ""
+                    }
                 },
                 {
-                    "proyecto2":[
-                        {"nombre": "Landing Page"},
-                        {"img": ""},
-                        {"link": ""}
-                    ]
+                    "proyecto2":{
+                        "nombre": "Landing Page",
+                        "img": "",
+                        "link": ""
+                    }
                 },
                 {
-                    "proyecto3":[
-                        {"nombre": "Wikidogs"},
-                        {"img": ""},
-                        {"link": ""}
-                    ]
-                },
-                {
-                    "propyecto4":[
-                        {"nombre": "PHP"},
-                        {"img": ""},
-                        {"link": ""}
-                    ]
+                    "proyecto3":{
+                        "nombre": "Wikidogs",
+                        "img": "",
+                        "link": ""
+                    }
                 }
             ]
+        },
+        {
+            "contacto":{
+                "nombre": "Nombre",
+                "apellidos": "Apellidos",
+                "correo": "Correo",
+                "asunto": "Asunto",
+                "informacion": "Mensaje",
+                "enviar": "Enviar"
+            }
+        }
+
+    ],
+
+
+
+    "inglés": [
+
+        {
+            "itemsmenu":{
+                "menu1": "About me",
+                "menu2": "Working Experience",
+                "menu3": "Education",
+                "menu4": "Skills",
+                "menu5": "Projects",
+                "menu6": "Languages",
+                "menu7": "References",
+                "menu8": "Contact",
+                "idioma1": "Spanish",
+                "idioma2": "English"
+            }
+        },
+         
+
+
+        {
+            "sobremi":{
+                "nombre": "Jorge",  
+                "apellidos": "Ramírez Molina",
+                "fechaNac": "24th of February of 1998",
+                "direccion": "Granada, Spain",
+                "descripcion": "If you're looking for a web developer, you're in the right place. Knowledge in VUE.JS, JavaScript, CSS, HTML, PHP and much more!",
+                "correo": "jorgeramirezdeveloper@gmail.com",
+                "telefono": "+34 625631310",
+                "github": "https://github.com/JorgeRamirezDEV",
+                "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"
+            }
+        },    
+        
+        {
+            "experiencia":[
+                {   
+                    "texto":{
+                        "titulo": "Working Experience",
+                        "descripcion": "These are the works that I have been part of"
+                    }
+                },
+                {
+                    "trabajo1":{
+                        "nombre": "Barman",
+                        "lugar": "",
+                        "descripcion": "",
+                        "fechaInicio": "",
+                        "fechaFinal": ""
+                    }
+                },
+                {
+                    "trabajo2":{
+                        "nombre": "English teacher",
+                        "lugar": "",
+                        "descripcion": "",
+                        "fechaInicio": "",
+                        "fechaFinal": ""
+                    }
+                }
+            ]
+        },
+
+        {
+            "educacion":[
+                {   
+                    "texto":{
+                        "titulo": "Education",
+                        "descripcion": "These are the studies that I took in all my life"
+                    }
+                },
+                {
+                    "estudio1":{
+                        "nombre": "Bachillerato",
+                        "lugar": "I.E.S Aricel",
+                        "descripcion": "Bachillerato de ciencias",
+                        "fecha": "12-02-2012"
+                    } 
+                },
+                {
+                    "estudio1":{
+                        "nombre": "Grado superior",
+                        "lugar": "I.E.S Francisco Ayala",
+                        "descripcion": "Desarrollo de aplicaciones web",
+                        "fecha": "12-02-2012"
+                    }
+                }
+                
+            ]
+        },
+
+        {
+            "habilidades":[
+                {   
+                    "texto":{
+                        "titulo": "Skills",
+                        "descripcion": "Coding languages and others skills"
+                    }
+                },
+                {   
+                    "habilidad1":{
+                        "nombre": "JavaScript",
+                        "img": ""
+                    }
+                },
+                {
+                    "habilidad2":{
+                        "nombre": "HTML",
+                        "img": ""
+                    }
+                },
+                {
+                    "habilidad3":{
+                        "nombre": "CSS",
+                        "img": ""
+                    }
+                },
+                {
+                    "habilidad4":{
+                        "nombre": "PHP",
+                        "img": ""
+                    }
+                },
+                {
+                    "habilidad5":{
+                        "nombre": "VUE",
+                        "img": ""
+                    }
+                },
+                {
+                    "habilidad6":{
+                        "nombre": "BOOTSTRAP",
+                        "img": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Proyectos":[
+                {   
+                    "texto":{
+                        "titulo": "Projects",
+                        "descripcion": "Here you have a little bit of everything I can offer"
+                    }
+                },
+                {   
+                    "proyecto1":{
+                        "nombre": "Ping-pong",
+                        "img": "",
+                        "link": ""
+                    }
+                },
+                {
+                    "proyecto2":{
+                        "nombre": "Landing Page",
+                        "img": "",
+                        "link": ""
+                    }
+                },
+                {
+                    "proyecto3":{
+                        "nombre": "Wikidogs",
+                        "img": "",
+                        "link": ""
+                    }
+                }
+            ]
+        },
+        {
+            "contacto":{
+                "nombre": "Name",
+                "apellidos": "Surname",
+                "correo": "Email",
+                "asunto": "Subject",
+                "informacion": "Message",
+                "enviar": "Submit"
+            }
         }
 
     ]
 }
+
+
