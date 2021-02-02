@@ -1,5 +1,5 @@
 {
-    "español": [
+    "es": [
 
         {
             "itemsmenu":{
@@ -144,7 +144,7 @@
                     }
                 },
                 {
-                    "español":{
+                    "espanol":{
                         "nombre": "Español",
                         "hablado": "Nativo",
                         "escrito": "Nativo",
@@ -152,7 +152,7 @@
                     } 
                 },
                 {
-                    "inglés":{
+                    "ingles":{
                         "nombre": "Inglés",
                         "hablado": "B2",
                         "escrito": "B2",
@@ -243,7 +243,7 @@
 
 
 
-    "inglés": [
+    "en": [
 
         {
             "itemsmenu":{
@@ -388,7 +388,7 @@
                     }
                 },
                 {
-                    "español":{
+                    "espanol":{
                         "nombre": "Spanish",
                         "hablado": "Native",
                         "escrito": "Native",
@@ -396,7 +396,7 @@
                     } 
                 },
                 {
-                    "inglés":{
+                    "ingles":{
                         "nombre": "English",
                         "hablado": "B2",
                         "escrito": "B2",
