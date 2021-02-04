@@ -87,15 +87,15 @@
                         "nombre": "Bachillerato",
                         "lugar": "I.E.S Aricel",
                         "descripcion": "Bachillerato de ciencias",
-                        "fecha": "12-02-2012"
+                        "fecha": "12-05-2016"
                     } 
                 },
                 {
-                    "estudio1":{
+                    "estudio2":{
                         "nombre": "Grado superior",
                         "lugar": "I.E.S Francisco Ayala",
                         "descripcion": "Desarrollo de aplicaciones web",
-                        "fecha": "12-02-2012"
+                        "fecha": "10-03-2021"
                     }
                 }
                 
@@ -181,31 +181,31 @@
                 {   
                     "texto":{
                         "titulo": "Referencias",
-                        "descripcion": "Personas que han trabajado con nosotros"
+                        "descripcion": "Personas que han trabajado conmigo"
                     }
                 },
                 {
                     "persona1":{
-                        "nombre": "",
-                        "trabajo": "",
-                        "img": "",
-                        "descripcion": ""
+                        "nombre": "Nacho",
+                        "trabajo": "Compañero de clase",
+                        "img": "img/nacho.jfif",
+                        "descripcion": "''Muy trabajador''"
                     } 
                 },
                 {
                     "persona2":{
-                        "nombre": "",
-                        "trabajo": "",
-                        "img": "",
-                        "descripcion": ""
+                        "nombre": "Diego",
+                        "trabajo": "Compañero de clase",
+                        "img": "img/diego.jfif",
+                        "descripcion": "''El mejor en diseño web''"
                     } 
                 },
                 {
                     "persona3":{
-                        "nombre": "",
-                        "trabajo": "",
-                        "img": "",
-                        "descripcion": ""
+                        "nombre": "Pablo",
+                        "trabajo": "Compañero de clase",
+                        "img": "img/pablo.jfif",
+                        "descripcion": "''Un poco tonto''"
                     } 
                 }
                 
@@ -346,15 +346,15 @@
                         "nombre": "High School",
                         "lugar": "I.E.S Aricel",
                         "descripcion": "Technological Sciencies",
-                        "fecha": "12-02-2012"
+                        "fecha": "12-05-2016"
                     } 
                 },
                 {
-                    "estudio1":{
+                    "estudio2":{
                         "nombre": "Higher VET",
                         "lugar": "I.E.S Francisco Ayala",
                         "descripcion": "Web Development",
-                        "fecha": "12-02-2012"
+                        "fecha": "10-03-2021"
                     }
                 }
                 
@@ -440,31 +440,31 @@
                 {   
                     "texto":{
                         "titulo": "References",
-                        "descripcion": "People that have been working with ME"
+                        "descripcion": "People that have been working with me"
                     }
                 },
                 {
                     "persona1":{
-                        "nombre": "",
-                        "trabajo": "",
-                        "img": "",
-                        "descripcion": ""
+                        "nombre": "Nacho",
+                        "trabajo": "Classmate",
+                        "img": "img/nacho.jfif",
+                        "descripcion": "''Hard-working''"
                     } 
                 },
                 {
                     "persona2":{
-                        "nombre": "",
-                        "trabajo": "",
-                        "img": "",
-                        "descripcion": ""
+                        "nombre": "Diego",
+                        "trabajo": "Classmate",
+                        "img": "img/diego.jfif",
+                        "descripcion": "''The best in web design''"
                     } 
                 },
                 {
                     "persona3":{
-                        "nombre": "",
-                        "trabajo": "",
-                        "img": "",
-                        "descripcion": ""
+                        "nombre": "Pablo",
+                        "trabajo": "Classmate",
+                        "img": "img/pablo.jfif",
+                        "descripcion": "''A little dumb''"
                     } 
                 }
                 

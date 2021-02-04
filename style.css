@@ -30,3 +30,20 @@ body {
     width: 50px;
     height: 50px;
 }
+
+input:invalid:required{
+    border: 1px solid #0d6efd
+    ;
+}
+
+input:valid{
+    border: 2px solid lightgreen;
+}
+
+.form-group {
+    max-width: 700px;
+}
+
+#submitbutton {
+    max-width: 100px;
+}
