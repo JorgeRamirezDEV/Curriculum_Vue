@@ -2,10 +2,29 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    position: relative;
+}
 
-#side .nav-link.active,
-#side .nav-link:hover,
-#side .nav-link:focus{
-    color: #111;
-    border-bottom: 1px #000 dashed;
+.nav-link {
+    cursor: pointer;
+}
+
+#foto {
+    border: 2px solid rgb(111, 111, 241);
+    border-radius: 50%;
+    width: 100%;
+}
+
+#iconoBandera {
+    width: 70%;
+    max-width: 100px;
+}
+
+.fotohabilidad {
+    width: 10%;
+    min-width: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
 }

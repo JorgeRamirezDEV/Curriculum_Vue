@@ -6,13 +6,16 @@
                 "menu1": "Sobre mí",
                 "menu2": "Experiencia Laboral",
                 "menu3": "Educación",
-                "menu4": "Destrezas",
+                "menu4": "Habilidades",
                 "menu5": "Proyectos",
                 "menu6": "Idiomas",
                 "menu7": "Referencias",
                 "menu8": "Contacto",
                 "idioma1": "Español",
-                "idioma2": "Inglés"
+                "idioma2": "Inglés",
+                "fotoingles": "img/english.png",
+                "fotoespanol": "img/spanish.png"
+
             }
         },
          
@@ -27,6 +30,7 @@
                 "descripcion": "Si estás buscando un Desarrollador web polivalente, has llegado al sitio indicado. Conocimientos en JavaScript, JQuery, HTML, CSS, BOOTSRAP, VueJS y VueCli.",
                 "correo": "jorgeramirezdeveloper@gmail.com",
                 "telefono": "625631310",
+                "foto": "img/foto.png",
                 "github": "https://github.com/JorgeRamirezDEV",
                 "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"
             }
@@ -43,19 +47,19 @@
                 {
                     "trabajo1":{
                         "nombre": "Barman",
-                        "lugar": "",
-                        "descripcion": "",
-                        "fechaInicio": "",
-                        "fechaFinal": ""
+                        "lugar": "Granada",
+                        "descripcion": "Trabajo sencillo de verano sirviendo copas en un bar.",
+                        "fechaInicio": "01-07-2019",
+                        "fechaFinal": "30-07-2019"
                     }
                 },
                 {
                     "trabajo2":{
                         "nombre": "Profesor de inglés",
-                        "lugar": "",
-                        "descripcion": "",
-                        "fechaInicio": "",
-                        "fechaFinal": ""
+                        "lugar": "Albolote, Granada",
+                        "descripcion": "Clases particulares a niños en inglés",
+                        "fechaInicio": "20-02-2019",
+                        "fechaFinal": "30-05-2019"
                     }
                 }
             ]
@@ -100,37 +104,37 @@
                 {   
                     "habilidad1":{
                         "nombre": "JavaScript",
-                        "img": ""
+                        "img": "img/javascript.png"
                     }
                 },
                 {
                     "habilidad2":{
                         "nombre": "HTML",
-                        "img": ""
+                        "img": "img/html.png"
                     }
                 },
                 {
                     "habilidad3":{
                         "nombre": "CSS",
-                        "img": ""
+                        "img": "img/css.png"
                     }
                 },
                 {
                     "habilidad4":{
                         "nombre": "PHP",
-                        "img": ""
+                        "img": "img/php.png"
                     }
                 },
                 {
                     "habilidad5":{
                         "nombre": "VUE",
-                        "img": ""
+                        "img": "img/vue.png"
                     }
                 },
                 {
                     "habilidad6":{
                         "nombre": "BOOTSTRAP",
-                        "img": ""
+                        "img": "img/bootstrap.png"
                     }
                 }
             ]
@@ -140,23 +144,24 @@
                 {   
                     "texto":{
                         "titulo": "Idiomas",
-                        "descripcion": "Estos son los idiomas que conozco"
+                        "descripcion": "Estos son los idiomas que conozco",
+                        "nivel": "Nivel de "
                     }
                 },
                 {
                     "espanol":{
                         "nombre": "Español",
-                        "hablado": "Nativo",
-                        "escrito": "Nativo",
-                        "leido": "Nativo"
+                        "hablado": "Hablado",
+                        "escrito": "Escrito",
+                        "leido": "Leído"
                     } 
                 },
                 {
                     "ingles":{
                         "nombre": "Inglés",
-                        "hablado": "B2",
-                        "escrito": "B2",
-                        "leido": "B2"
+                        "hablado": "Hablado",
+                        "escrito": "Escrito",
+                        "leido": "Leído"
                     }
                 }
                 
@@ -179,7 +184,7 @@
                     } 
                 },
                 {
-                    "persona1":{
+                    "persona2":{
                         "nombre": "",
                         "trabajo": "",
                         "img": "",
@@ -187,7 +192,7 @@
                     } 
                 },
                 {
-                    "persona1":{
+                    "persona3":{
                         "nombre": "",
                         "trabajo": "",
                         "img": "",
@@ -198,32 +203,33 @@
             ]
         },
         {
-            "Proyectos":[
+            "proyectos":[
                 {   
                     "texto":{
                         "titulo": "Proyectos",
-                        "descripcion": "Aquí se encuentran los proyectos que he desarrollado"
+                        "descripcion": "Aquí se encuentran los proyectos que he desarrollado",
+                        "boton": "Más información"
                     }
                 },
                 {   
                     "proyecto1":{
-                        "nombre": "Ping-pong",
-                        "img": "",
-                        "link": ""
+                        "nombre": "Piedra, papel y tijera",
+                        "img": "img/rockscissorpaper.png",
+                        "link": "https://github.com/JorgeRamirezDEV/Entorno-Cliente/tree/main/Projects/RockScissorPaper%20Game"
                     }
                 },
                 {
                     "proyecto2":{
                         "nombre": "Landing Page",
-                        "img": "",
-                        "link": ""
+                        "img": "img/landingpage.png",
+                        "link": "https://github.com/JorgeRamirezDEV/ProyectoJQuery"
                     }
                 },
                 {
                     "proyecto3":{
                         "nombre": "Wikidogs",
-                        "img": "",
-                        "link": ""
+                        "img": "img/wikidogs.png",
+                        "link": "https://github.com/JorgeRamirezDEV/WikiDogs"
                     }
                 }
             ]
@@ -256,7 +262,9 @@
                 "menu7": "References",
                 "menu8": "Contact",
                 "idioma1": "Spanish",
-                "idioma2": "English"
+                "idioma2": "English",
+                "fotoingles": "img/english.png",
+                "fotoespanol": "img/spanish.png"
             }
         },
          
@@ -271,6 +279,7 @@
                 "descripcion": "If you're looking for a web developer, you're in the right place. Knowledge in VUE.JS, JavaScript, CSS, HTML, PHP and much more!",
                 "correo": "jorgeramirezdeveloper@gmail.com",
                 "telefono": "+34 625631310",
+                "foto": "img/foto.png",
                 "github": "https://github.com/JorgeRamirezDEV",
                 "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"
             }
@@ -384,23 +393,24 @@
                 {   
                     "texto":{
                         "titulo": "Languages",
-                        "descripcion": "This are the languages that I domain"
+                        "descripcion": "This are the languages that I domain",
+                        "nivel": "Level of "
                     }
                 },
                 {
                     "espanol":{
                         "nombre": "Spanish",
-                        "hablado": "Native",
-                        "escrito": "Native",
-                        "leido": "Native"
+                        "hablado": "Spoken",
+                        "escrito": "Written",
+                        "leido": "Read"
                     } 
                 },
                 {
                     "ingles":{
                         "nombre": "English",
-                        "hablado": "B2",
-                        "escrito": "B2",
-                        "leido": "B2"
+                        "hablado": "Spoken",
+                        "escrito": "Written",
+                        "leido": "Read"
                     }
                 }
                 
@@ -423,7 +433,7 @@
                     } 
                 },
                 {
-                    "persona1":{
+                    "persona2":{
                         "nombre": "",
                         "trabajo": "",
                         "img": "",
@@ -431,7 +441,7 @@
                     } 
                 },
                 {
-                    "persona1":{
+                    "persona3":{
                         "nombre": "",
                         "trabajo": "",
                         "img": "",
@@ -442,32 +452,34 @@
             ]
         },
         {
-            "Proyectos":[
+            "proyectos":[
                 {   
                     "texto":{
                         "titulo": "Projects",
-                        "descripcion": "Here you have a little bit of everything I can offer"
+                        "descripcion": "Here you have a little bit of everything I can offer",
+                        "boton": "More Information"
                     }
                 },
                 {   
                     "proyecto1":{
-                        "nombre": "Ping-pong",
-                        "img": "",
-                        "link": ""
+                        "nombre": "Rock, scissor & paper",
+                        "img": "img/rockscissorpaper.png",
+                        "link": "https://github.com/JorgeRamirezDEV/Entorno-Cliente/tree/main/Projects/RockScissorPaper%20Game"
                     }
                 },
                 {
                     "proyecto2":{
                         "nombre": "Landing Page",
-                        "img": "",
-                        "link": ""
+                        "img": "img/landingpage.png",
+                        "descripcion": "",
+                        "link": "https://github.com/JorgeRamirezDEV/ProyectoJQuery"
                     }
                 },
                 {
                     "proyecto3":{
                         "nombre": "Wikidogs",
-                        "img": "",
-                        "link": ""
+                        "img": "img/wikidogs.png",
+                        "link": "https://github.com/JorgeRamirezDEV/WikiDogs"
                     }
                 }
             ]

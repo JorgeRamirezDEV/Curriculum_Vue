@@ -8,19 +8,217 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#sidemenu" data-offset="1">
         <div id="app">
         <div v-if=this.data>
-            <p>{{obtenerTexto[1].sobremi.nombre}}</p>
-            <p>{{obtenerTexto[1].sobremi.apellidos}}</p>
-            <p>{{obtenerTexto[1].sobremi.direccion}}</p>
-            <p>{{obtenerTexto[1].sobremi.descripcion}}</p>
+            <div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <button class=" fixed-top btn btn-primary" data-toggle="collapse" href="#sidemenu" type="button" >+</button>
+                    <nav class="col-sm-3 col-4 col-xl-2 bg-light collapse show" id="sidemenu">
+                      <ul class="nav sticky-top nav-pills flex-column">
+                        <li class="nav-item">
+                          <br>
+                          <img class="mt-3" id="foto" :src="obtenerTexto[1].sobremi.foto">
+                          <br>
+                          <h3 class="d-none d-sm-block text-center mt-4">{{obtenerTexto[1].sobremi.nombre}}</h3>
+                          <h4 class="d-none d-sm-block text-center">{{obtenerTexto[1].sobremi.apellidos}}</h4>
+                          <br>
+                          <a class="nav-link active" href="#section1">{{obtenerTexto[0].itemsmenu.menu1}}</a>
+                          <a class="nav-link active" href="#section2">{{obtenerTexto[0].itemsmenu.menu2}}</a>
+                          <a class="nav-link active" href="#section3">{{obtenerTexto[0].itemsmenu.menu3}}</a>
+                          <a class="nav-link active" href="#section4">{{obtenerTexto[0].itemsmenu.menu4}}</a>
+                          <a class="nav-link active" href="#section5">{{obtenerTexto[0].itemsmenu.menu5}}</a>
+                          <a class="nav-link active" href="#section6">{{obtenerTexto[0].itemsmenu.menu6}}</a>
+                          <a class="nav-link active" href="#section7">{{obtenerTexto[0].itemsmenu.menu7}}</a>
+                          <a class="nav-link active" href="#section8">{{obtenerTexto[0].itemsmenu.menu8}}</a>
+                          <br>
+                          <img :src="obtenerTexto[0].itemsmenu.fotoespanol" id="iconoBandera" class="nav-link" v-if=!es v-on:click="cambiarIdioma"></img>
+                          <img :src="obtenerTexto[0].itemsmenu.fotoingles" id="iconoBandera" class="nav-link" v-if=es v-on:click="cambiarIdioma"></img>
+                        </li>
+                    </nav>
+                    
+                    <div class="col-sm-9 col-8 col-xl-10 pl-5">
+                      <div class="pt-5" id="section1">
+                        
+                        <h1 class="d-block d-sm-none">{{obtenerTexto[1].sobremi.nombre}}</h1>
+                        <h2 class="d-block d-sm-none mb-5">{{obtenerTexto[1].sobremi.apellidos}}</h2>
+
+                        <h1>{{obtenerTexto[0].itemsmenu.menu1}}</h1>
+                          <p>{{obtenerTexto[1].sobremi.direccion}}</p>
+                          <p>{{obtenerTexto[1].sobremi.fechaNac}}</p>
+                          <p>{{obtenerTexto[1].sobremi.descripcion}}</p>
+                          <p>{{obtenerTexto[1].sobremi.correo}}</p>
+                          <p>{{obtenerTexto[1].sobremi.telefono}}</p>
+                          <p>{{obtenerTexto[1].sobremi.github}}</p>
+                          <p>{{obtenerTexto[1].sobremi.linkedin}}</p>
+                      </div>
+                      <div class="mt-5" id="section2">
+                        <h1>{{obtenerTexto[2].experiencia[0].texto.titulo}}</h1>
+                        <h2>{{obtenerTexto[2].experiencia[0].texto.descripcion}}</h2>
+                        <p>{{obtenerTexto[2].experiencia[1].trabajo1.nombre}}</p>
+                        <p>{{obtenerTexto[2].experiencia[1].trabajo1.lugar}}</p>
+                        <p>{{obtenerTexto[2].experiencia[1].trabajo1.descripcion}}</p>
+                        <p>{{obtenerTexto[2].experiencia[1].trabajo1.fechaInicio}}</p>
+                        <p>{{obtenerTexto[2].experiencia[1].trabajo1.fechaFinal}}</p>
+                        <p>{{obtenerTexto[2].experiencia[2].trabajo2.nombre}}</p>
+                        <p>{{obtenerTexto[2].experiencia[2].trabajo2.lugar}}</p>
+                        <p>{{obtenerTexto[2].experiencia[2].trabajo2.descripcion}}</p>
+                        <p>{{obtenerTexto[2].experiencia[2].trabajo2.fechaInicio}}</p>
+                        <p>{{obtenerTexto[2].experiencia[2].trabajo2.fechaFinal}}</p>
+                      </div>
+                      <div class="mt-5" id="section3">
+                        <h1>{{obtenerTexto[3].educacion[0].texto.titulo}}</h1>
+                        <p>{{obtenerTexto[3].educacion[0].texto.descripcion}}</p>
+                        <h2>{{obtenerTexto[3].educacion[1].estudio1.nombre}}</h2>
+                        <p>{{obtenerTexto[3].educacion[1].estudio1.lugar}}</p>
+                        <p>{{obtenerTexto[3].educacion[1].estudio1.descripcion}}</p>
+                        <p>{{obtenerTexto[3].educacion[1].estudio1.fecha}}</p>
+                        <h2>{{obtenerTexto[3].educacion[2].estudio1.nombre}}</h2>
+                        <p>{{obtenerTexto[3].educacion[2].estudio1.lugar}}</p>
+                        <p>{{obtenerTexto[3].educacion[2].estudio1.descripcion}}</p>
+                        <p>{{obtenerTexto[3].educacion[2].estudio1.fecha}}</p>
+                      </div>
+                      <div class="mt-5" id="section4">
+                        
+                        <h1>{{obtenerTexto[4].habilidades[0].texto.titulo}}</h1>
+                        <p>{{obtenerTexto[4].habilidades[0].texto.descripcion}}</p>
+                        <div class="row">
+                          <div class="m-3 text-center">
+                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[1].habilidad1.img">
+                            <h5>{{obtenerTexto[4].habilidades[1].habilidad1.nombre}}</h5>
+                          </div>
+                          <div class="m-3 text-center">
+                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[2].habilidad2.img">                       
+                            <h5>{{obtenerTexto[4].habilidades[2].habilidad2.nombre}}</h5>
+                          </div>
+                          <div class="m-3 text-center">
+                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[3].habilidad3.img">
+                            <h5>{{obtenerTexto[4].habilidades[3].habilidad3.nombre}}</h5>
+
+                          </div>
+                          <div class="m-3 text-center">
+                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[4].habilidad4.img">
+                            <h5>{{obtenerTexto[4].habilidades[4].habilidad4.nombre}}</h5>
+
+                          </div>
+                          <div class="m-3 text-center">
+                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[5].habilidad5.img">
+                            <h5>{{obtenerTexto[4].habilidades[5].habilidad5.nombre}}</h5>
+
+                          </div>
+                          <div class="m-3 text-center">
+                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[6].habilidad6.img">
+                            <h5>{{obtenerTexto[4].habilidades[6].habilidad6.nombre}}</h5>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-5" id="section5"> 
+                        <h1>{{obtenerTexto[7].proyectos[0].texto.titulo}}</h1>
+                        <p>{{obtenerTexto[7].proyectos[0].texto.descripcion}}</p>
+                        <div class="row">
+                          <div class="card m-3" style="width: 18rem;">
+                            <img :src="obtenerTexto[7].proyectos[1].proyecto1.img" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{obtenerTexto[7].proyectos[1].proyecto1.nombre}}</h5>
+                              <a :href="obtenerTexto[7].proyectos[1].proyecto1.link" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                            </div>
+                          </div>
+                          <div class="card m-3" style="width: 18rem;">
+                            <img :src="obtenerTexto[7].proyectos[2].proyecto2.img" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{obtenerTexto[7].proyectos[2].proyecto2.nombre}}</h5>
+                              <a :href="obtenerTexto[7].proyectos[2].proyecto2.link"  class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                            </div>
+                          </div>
+                          <div class="card m-3" style="width: 18rem;">
+                            <img :src="obtenerTexto[7].proyectos[3].proyecto3.img" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{obtenerTexto[7].proyectos[3].proyecto3.nombre}}</h5>
+                              <a :href="obtenerTexto[7].proyectos[3].proyecto3.link" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-5" id="section6">
+                        <h1>{{obtenerTexto[5].idiomas[0].texto.titulo}}</h1>
+                        <p>{{obtenerTexto[5].idiomas[0].texto.descripcion}}</p>
+                        <div class="row">
+                          <div class="col-12 col-sm-6">
+                            <h4>{{obtenerTexto[5].idiomas[0].texto.nivel}}{{obtenerTexto[5].idiomas[1].espanol.nombre}}</h4>
+                            <a>{{obtenerTexto[5].idiomas[1].espanol.hablado}}</a>
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <a>{{obtenerTexto[5].idiomas[1].espanol.leido}}</a>
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <a>{{obtenerTexto[5].idiomas[1].espanol.escrito}}</a>
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-6">
+                            <h4>{{obtenerTexto[5].idiomas[0].texto.nivel}}{{obtenerTexto[5].idiomas[2].ingles.nombre}}</h4>
+                            <a>{{obtenerTexto[5].idiomas[2].ingles.hablado}}</a>
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <a>{{obtenerTexto[5].idiomas[2].ingles.leido}}</a>
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <a>{{obtenerTexto[5].idiomas[2].ingles.escrito}}</a>
+                            <div class="progress" style="height: 20px;">
+                              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-5" id="section7">
+                        <h1>{{obtenerTexto[6].referencias[0].texto.titulo}}</h1>
+                        <p>{{obtenerTexto[6].referencias[0].texto.descripcion}}</p>
+                        
+                      </div>
+                      <form class="mt-5" id="section8">
+                        <h1>{{obtenerTexto[0].itemsmenu.menu8}}</h1>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">{{obtenerTexto[8].contacto.nombre}}</label>
+                          <input type="text" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">{{obtenerTexto[8].contacto.apellidos}}</label>
+                          <input type="text" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">{{obtenerTexto[8].contacto.correo}}</label>
+                          <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">{{obtenerTexto[8].contacto.asunto}}</label>
+                          <input type="text" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">{{obtenerTexto[8].contacto.informacion}}</label>
+                          <input type="text" class="form-control" >
+                        </div>
+                        <button type="submit" class="btn btn-primary">{{obtenerTexto[8].contacto.enviar}}</button>
+                      </form>
+
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
         </div>
         <div v-else class="spinner-grow" role="status">
             <span class="sr-only">Loading...</span>
           </div>
-          <button v-on:click="cambiarIdioma">cambiar</button>
+          
         </div>
+        
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
