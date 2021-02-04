@@ -62,7 +62,7 @@
                         "nombre": "Profesor de inglés",
                         "lugar": "Albolote, Granada",
                         "img": "img/profesor.png",
-                        "descripcion": "Clases particulares a niños en inglés",
+                        "descripcion": "Clases particulares a niños en inglés.",
                         "fechaInicio": "20-02-2019",
                         "fechaFinal": "30-05-2019"
                     }

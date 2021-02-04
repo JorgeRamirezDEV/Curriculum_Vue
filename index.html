@@ -266,21 +266,27 @@
                         <p>{{obtenerTexto[6].referencias[0].texto.descripcion}}</p>
                         <div class="row d-flex justify-content-around">
                           <div class="card m-2 shadow-sm bg-light rounded" style="width: 14rem;">
-                            <img :src="obtenerTexto[6].referencias[1].persona1.img" class="card-img-top" alt="...">
+                            <label data-toggle="tooltip" data-placement="bottom" :title="obtenerTexto[6].referencias[1].persona1.trabajo">
+                              <img :src="obtenerTexto[6].referencias[1].persona1.img" class="card-img-top">
+                            </label>
                             <div class="card-body">
                               <h5>{{obtenerTexto[6].referencias[1].persona1.nombre}}</h5>
                               <p class="card-text">{{obtenerTexto[6].referencias[1].persona1.descripcion}}</p>
                             </div>
                           </div>
                           <div class="card m-2 shadow-sm bg-light rounded" style="width: 14rem;">
-                            <img :src="obtenerTexto[6].referencias[2].persona2.img" class="card-img-top" alt="...">
+                            <label data-toggle="tooltip" data-placement="bottom" :title="obtenerTexto[6].referencias[2].persona2.trabajo">
+                              <img :src="obtenerTexto[6].referencias[2].persona2.img" class="card-img-top">
+                            </label>
                             <div class="card-body">
                               <h5>{{obtenerTexto[6].referencias[2].persona2.nombre}}</h5>
                               <p class="card-text">{{obtenerTexto[6].referencias[2].persona2.descripcion}}</p>
                             </div>
                           </div>
                           <div class="card m-2 shadow-sm bg-light rounded" style="width: 14rem;">
-                            <img :src="obtenerTexto[6].referencias[3].persona3.img" class="card-img-top" alt="...">
+                            <label data-toggle="tooltip" data-placement="bottom" :title="obtenerTexto[6].referencias[3].persona3.trabajo">
+                              <img :src="obtenerTexto[6].referencias[3].persona3.img" class="card-img-top">
+                            </label>
                             <div class="card-body">
                               <h5>{{obtenerTexto[6].referencias[3].persona3.nombre}}</h5>
                               <p class="card-text">{{obtenerTexto[6].referencias[3].persona3.descripcion}}</p>
