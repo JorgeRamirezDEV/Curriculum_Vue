@@ -29,10 +29,13 @@
                 "direccion": "Granada, España",
                 "descripcion": "Si estás buscando un Desarrollador web polivalente, has llegado al sitio indicado. Conocimientos en JavaScript, JQuery, HTML, CSS, BOOTSRAP, VueJS y VueCli.",
                 "correo": "jorgeramirezdeveloper@gmail.com",
+                "telfname": "Teléfono",
                 "telefono": "625631310",
                 "foto": "img/foto.png",
                 "github": "https://github.com/JorgeRamirezDEV",
-                "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"
+                "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/",
+                "githubimg": "img/github.png",
+                "linkedinimg": "img/linkedin.png"
             }
         },    
         
@@ -48,6 +51,7 @@
                     "trabajo1":{
                         "nombre": "Barman",
                         "lugar": "Granada",
+                        "img": "img/barman.png",
                         "descripcion": "Trabajo sencillo de verano sirviendo copas en un bar.",
                         "fechaInicio": "01-07-2019",
                         "fechaFinal": "30-07-2019"
@@ -57,6 +61,7 @@
                     "trabajo2":{
                         "nombre": "Profesor de inglés",
                         "lugar": "Albolote, Granada",
+                        "img": "img/profesor.png",
                         "descripcion": "Clases particulares a niños en inglés",
                         "fechaInicio": "20-02-2019",
                         "fechaFinal": "30-05-2019"
@@ -70,7 +75,11 @@
                 {   
                     "texto":{
                         "titulo": "Educación",
-                        "descripcion": "Estudios en los que he tomado parte"
+                        "descripcion": "Estudios en los que he tomado parte",
+                        "estudio": "Nombre",
+                        "descripcion2": "Descripción",
+                        "lugar": "Centro",
+                        "fecha": "Fecha de finalización"
                     }
                 },
                 {
@@ -279,9 +288,12 @@
                 "descripcion": "If you're looking for a web developer, you're in the right place. Knowledge in VUE.JS, JavaScript, CSS, HTML, PHP and much more!",
                 "correo": "jorgeramirezdeveloper@gmail.com",
                 "telefono": "+34 625631310",
+                "telfname": "Telephone",
                 "foto": "img/foto.png",
                 "github": "https://github.com/JorgeRamirezDEV",
-                "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/"
+                "linkedin": "https://www.linkedin.com/in/jorge-r-399286114/",
+                "githubimg": "img/github.png",
+                "linkedinimg": "img/linkedin.png"
             }
         },    
         
@@ -296,19 +308,21 @@
                 {
                     "trabajo1":{
                         "nombre": "Barman",
-                        "lugar": "",
-                        "descripcion": "",
-                        "fechaInicio": "",
-                        "fechaFinal": ""
+                        "lugar": "Granada",
+                        "img": "img/barman.png",
+                        "descripcion": "Temporal job in summer working as a bartender.",
+                        "fechaInicio": "01-07-2019",
+                        "fechaFinal": "30-07-2019"
                     }
                 },
                 {
                     "trabajo2":{
-                        "nombre": "English teacher",
-                        "lugar": "",
-                        "descripcion": "",
-                        "fechaInicio": "",
-                        "fechaFinal": ""
+                        "nombre": "English Teacher",
+                        "lugar": "Albolote, Granada",
+                        "img": "img/profesor.png",
+                        "descripcion": "English classes for kids and young students in my hometown.",
+                        "fechaInicio": "20-02-2019",
+                        "fechaFinal": "30-05-2019"
                     }
                 }
             ]
@@ -319,22 +333,27 @@
                 {   
                     "texto":{
                         "titulo": "Education",
-                        "descripcion": "These are the studies that I took in all my life"
+                        "descripcion": "These are the studies that I took in all my life",
+                        "estudio": "Name",
+                        "descripcion2": "Description",
+                        "lugar": "Place",
+                        "fecha": "Ending date"
+
                     }
                 },
                 {
                     "estudio1":{
-                        "nombre": "Bachillerato",
+                        "nombre": "High School",
                         "lugar": "I.E.S Aricel",
-                        "descripcion": "Bachillerato de ciencias",
+                        "descripcion": "Technological Sciencies",
                         "fecha": "12-02-2012"
                     } 
                 },
                 {
                     "estudio1":{
-                        "nombre": "Grado superior",
+                        "nombre": "Higher VET",
                         "lugar": "I.E.S Francisco Ayala",
-                        "descripcion": "Desarrollo de aplicaciones web",
+                        "descripcion": "Web Development",
                         "fecha": "12-02-2012"
                     }
                 }
@@ -353,37 +372,37 @@
                 {   
                     "habilidad1":{
                         "nombre": "JavaScript",
-                        "img": ""
+                        "img": "img/javascript.png"
                     }
                 },
                 {
                     "habilidad2":{
                         "nombre": "HTML",
-                        "img": ""
+                        "img": "img/html.png"
                     }
                 },
                 {
                     "habilidad3":{
                         "nombre": "CSS",
-                        "img": ""
+                        "img": "img/css.png"
                     }
                 },
                 {
                     "habilidad4":{
                         "nombre": "PHP",
-                        "img": ""
+                        "img": "img/php.png"
                     }
                 },
                 {
                     "habilidad5":{
                         "nombre": "VUE",
-                        "img": ""
+                        "img": "img/vue.png"
                     }
                 },
                 {
                     "habilidad6":{
                         "nombre": "BOOTSTRAP",
-                        "img": ""
+                        "img": "img/bootstrap.png"
                     }
                 }
             ]

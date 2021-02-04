@@ -5,8 +5,10 @@ window.onload = function (){
 var app= new Vue({
     el:'#app',
     data:{
-        data:null,
-        es:true
+        data: null,
+        es: true,
+        show: false,
+        nav: true
 },
 
 
