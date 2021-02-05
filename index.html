@@ -8,6 +8,7 @@
         <link rel="icon" type="image/jpg" href="img/favicon.jpg">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
     </head>
     <body class="bg-light" data-spy="scroll" data-target="#sidemenu" data-offset="1">
@@ -16,7 +17,7 @@
             <div>
                 <div class="container-fluid">
                   <div class="row">
-                    <button class=" fixed-top btn btn-primary" data-toggle="collapse" href="#sidemenu" type="button" >+</button>
+                    <button class=" fixed-top btn btn-primary" data-toggle="collapse" href="#sidemenu" type="button" >&times;</button>
                     <nav class="col-sm-3 col-4 col-xl-2 bg-white shadow-lg bg-white rounded collapse show" id="sidemenu">
                       <ul class="nav sticky-top nav-pills flex-column ">
                         <li class="nav-item ">
@@ -39,9 +40,9 @@
                           <img :src="obtenerTexto[0].itemsmenu.fotoingles" id="iconoBandera" class="nav-link" v-if=es v-on:click="cambiarIdioma"></img>
                         </li>
                     </nav>
-                    
                     <div class="col-sm-9 col-8 col-xl-10 pl-5">
-                      <div class="pt-5 shadow-sm p-3 mb-5 bg-white rounded border-bottom border-primary" id="section1">
+                      <div class="pt-4" id="section1" ></div>
+                      <div class="pt-3 shadow-sm p-3 mb-5 bg-white rounded border-bottom border-primary" id="section1">
                         
                         <h1 class="d-block d-sm-none">{{obtenerTexto[1].sobremi.nombre}}</h1>
                         <h2 class="d-block d-sm-none mb-5">{{obtenerTexto[1].sobremi.apellidos}}</h2>
@@ -59,7 +60,7 @@
                                 <div class="mx-5 shadow-sm p-3 mb-5 bg-light rounded" style="max-width: 500px">
                                   <div class="mt-2">
                                     <h4>{{obtenerTexto[8].contacto.correo}}</h4>
-                                    <label> {{obtenerTexto[1].sobremi.correo}}</label>
+                                    <a :href="`mailto:${obtenerTexto[1].sobremi.correo}`"> {{obtenerTexto[1].sobremi.correo}}</a>
                                   </div>
                                   <div class="mt-4 pt-4 border-top border-primary">
                                     <h4>{{obtenerTexto[1].sobremi.telfname}}</h4>
@@ -73,12 +74,12 @@
                             <div class="ml-auto row">
                               <div data-toggle="tooltip" data-placement="top" title="Github">
                                 <a :href="obtenerTexto[1].sobremi.github"> 
-                                  <img class="fotorrss my-2" :src="obtenerTexto[1].sobremi.githubimg"></img>
+                                  <i id="rrss" class="fab fa-github-square fa-3x my-2"></i>
                                 </a> 
                               </div>
                               <div data-toggle="tooltip" data-placement="top" title="Linkedin">
                                 <a :href="obtenerTexto[1].sobremi.linkedin"> 
-                                  <img class="fotorrss mx-4 my-2" :src="obtenerTexto[1].sobremi.linkedinimg"></img>
+                                  <i id="rrss" class="fab fa-linkedin fa-3x mx-4 my-2"></i>
                                 </a>
                               </div>
                             </div>
@@ -169,33 +170,33 @@
                       <div class="mt-5 shadow-sm p-3 mb-5 bg-white rounded border-bottom border-primary" id="section4">
                         
                         <h1>{{obtenerTexto[4].habilidades[0].texto.titulo}}</h1>
-                        <p>{{obtenerTexto[4].habilidades[0].texto.descripcion}}</p>
+                        <h5>{{obtenerTexto[4].habilidades[0].texto.descripcion1}}</h5>
                         <div class="row">
                           <div class="m-3 text-center">
-                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[1].habilidad1.img">
+                            <i class="fab fa-js-square fa-7x"></i>
                             <h5>{{obtenerTexto[4].habilidades[1].habilidad1.nombre}}</h5>
                           </div>
                           <div class="m-3 text-center">
-                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[2].habilidad2.img">                       
+                            <i class="fab fa-html5 fa-7x"></i>                 
                             <h5>{{obtenerTexto[4].habilidades[2].habilidad2.nombre}}</h5>
                           </div>
                           <div class="m-3 text-center">
-                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[3].habilidad3.img">
+                            <i class="fab fa-css3-alt fa-7x"></i>
                             <h5>{{obtenerTexto[4].habilidades[3].habilidad3.nombre}}</h5>
 
                           </div>
                           <div class="m-3 text-center">
-                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[4].habilidad4.img">
+                            <i class="fab fa-php fa-7x"></i>                            
                             <h5>{{obtenerTexto[4].habilidades[4].habilidad4.nombre}}</h5>
 
                           </div>
                           <div class="m-3 text-center">
-                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[5].habilidad5.img">
+                            <i class="fab fa-vuejs fa-7x"></i>                            
                             <h5>{{obtenerTexto[4].habilidades[5].habilidad5.nombre}}</h5>
 
                           </div>
                           <div class="m-3 text-center">
-                            <img class="fotohabilidad" :src="obtenerTexto[4].habilidades[6].habilidad6.img">
+                            <i class="fab fa-bootstrap fa-7x"></i>                            
                             <h5>{{obtenerTexto[4].habilidades[6].habilidad6.nombre}}</h5>
 
                           </div>
@@ -209,7 +210,25 @@
                             <img :src="obtenerTexto[7].proyectos[1].proyecto1.img" class="card-img-top " alt="...">
                             <div class="card-body ">
                               <h5 class="card-title">{{obtenerTexto[7].proyectos[1].proyecto1.nombre}}</h5>
-                              <a :href="obtenerTexto[7].proyectos[1].proyecto1.link" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                              <a data-toggle="modal" data-target="#exampleModal" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">{{obtenerTexto[7].proyectos[1].proyecto1.nombre}}</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p></p>
+                                </div>
+                                <div class="modal-footer">
+                                  <a class="btn btn-primary" :href="obtenerTexto[7].proyectos[2].proyecto2.link">{{obtenerTexto[7].proyectos[0].texto.boton2}}</a>
+                                </div>
+                              </div>
                             </div>
                           </div>
                           <div class="card m-3 shadow-sm bg-light rounded" style="width: 20rem;">

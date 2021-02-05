@@ -107,43 +107,39 @@
                 {   
                     "texto":{
                         "titulo": "Habilidades",
-                        "descripcion": "Lenguajes de programación y otros conocimientos"
+                        "descripcion1": "Lenguajes de programación",
+                        "descripcion2": "Conocimientos generales",
+                        "descripcion3": "Habilidades sociales"
                     }
                 },
                 {   
                     "habilidad1":{
-                        "nombre": "JavaScript",
-                        "img": "img/javascript.png"
+                        "nombre": "JavaScript"
                     }
                 },
                 {
                     "habilidad2":{
-                        "nombre": "HTML",
-                        "img": "img/html.png"
+                        "nombre": "HTML"
                     }
                 },
                 {
                     "habilidad3":{
-                        "nombre": "CSS",
-                        "img": "img/css.png"
+                        "nombre": "CSS"
                     }
                 },
                 {
                     "habilidad4":{
-                        "nombre": "PHP",
-                        "img": "img/php.png"
+                        "nombre": "PHP"
                     }
                 },
                 {
                     "habilidad5":{
-                        "nombre": "VUE",
-                        "img": "img/vue.png"
+                        "nombre": "VUE"
                     }
                 },
                 {
                     "habilidad6":{
-                        "nombre": "BOOTSTRAP",
-                        "img": "img/bootstrap.png"
+                        "nombre": "BOOTSTRAP"
                     }
                 }
             ]
@@ -217,7 +213,8 @@
                     "texto":{
                         "titulo": "Proyectos",
                         "descripcion": "Aquí se encuentran los proyectos que he desarrollado",
-                        "boton": "Más información"
+                        "boton": "Más información",
+                        "boton2": "Ir al proyecto"
                     }
                 },
                 {   
@@ -366,43 +363,39 @@
                 {   
                     "texto":{
                         "titulo": "Skills",
-                        "descripcion": "Coding languages and others skills"
+                        "descripcion1": "Coding languages",
+                        "descripcion2": "General knowledge",
+                        "descripcion3": "Social skills"
                     }
                 },
                 {   
                     "habilidad1":{
-                        "nombre": "JavaScript",
-                        "img": "img/javascript.png"
+                        "nombre": "JavaScript"
                     }
                 },
                 {
                     "habilidad2":{
-                        "nombre": "HTML",
-                        "img": "img/html.png"
+                        "nombre": "HTML"
                     }
                 },
                 {
                     "habilidad3":{
-                        "nombre": "CSS",
-                        "img": "img/css.png"
+                        "nombre": "CSS"
                     }
                 },
                 {
                     "habilidad4":{
-                        "nombre": "PHP",
-                        "img": "img/php.png"
+                        "nombre": "PHP"
                     }
                 },
                 {
                     "habilidad5":{
-                        "nombre": "VUE",
-                        "img": "img/vue.png"
+                        "nombre": "VUE"
                     }
                 },
                 {
                     "habilidad6":{
-                        "nombre": "BOOTSTRAP",
-                        "img": "img/bootstrap.png"
+                        "nombre": "BOOTSTRAP"
                     }
                 }
             ]
@@ -476,7 +469,8 @@
                     "texto":{
                         "titulo": "Projects",
                         "descripcion": "Here you have a little bit of everything I can offer",
-                        "boton": "More Information"
+                        "boton": "More Information",
+                        "boton2": "Go to project"
                     }
                 },
                 {   
