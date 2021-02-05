@@ -7,8 +7,7 @@ var app= new Vue({
     data:{
         data: null,
         es: true,
-        show: false,
-        nav: true
+        animacion: false
 },
 
 

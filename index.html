@@ -52,11 +52,11 @@
                           <p>{{obtenerTexto[1].sobremi.fechaNac}}</p>
                           <p>{{obtenerTexto[1].sobremi.descripcion}}</p>
                           <div>
-                            <button class="btn btn-primary mt-3 mb-5" @click="show = !show">
+                            <button class="btn btn-primary mt-3 mb-5" @click="animacion = !animacion">
                               {{obtenerTexto[7].proyectos[0].texto.boton}}                            
                             </button>
                             <transition name="custom-classes-transition" enter-active-class="animated zoomIn" leave-active-class="animated zoomOutDown">
-                              <div v-if="show">
+                              <div v-if="animacion">
                                 <div class="mx-5 shadow-sm p-3 mb-5 bg-light rounded" style="max-width: 500px">
                                   <div class="mt-2">
                                     <h4>{{obtenerTexto[8].contacto.correo}}</h4>
