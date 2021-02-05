@@ -70,14 +70,17 @@
                             </transition>
                             </div>
                           <div class="d-flex">
-                            <div class="ml-auto">
-                              <a data-toggle="tooltip" data-placement="bottom" title="Github" :href="obtenerTexto[1].sobremi.github"> 
-
-                                <img class="fotorrss my-2" :src="obtenerTexto[1].sobremi.githubimg"></img>
-                              </a>  
-                              <a data-toggle="tooltip" data-placement="bottom" title="Linkedin" :href="obtenerTexto[1].sobremi.linkedin"> 
-                                <img class="fotorrss mx-4 my-2" :src="obtenerTexto[1].sobremi.linkedinimg"></img>
-                              </a>
+                            <div class="ml-auto row">
+                              <div data-toggle="tooltip" data-placement="top" title="Github">
+                                <a :href="obtenerTexto[1].sobremi.github"> 
+                                  <img class="fotorrss my-2" :src="obtenerTexto[1].sobremi.githubimg"></img>
+                                </a> 
+                              </div>
+                              <div data-toggle="tooltip" data-placement="top" title="Linkedin">
+                                <a :href="obtenerTexto[1].sobremi.linkedin"> 
+                                  <img class="fotorrss mx-4 my-2" :src="obtenerTexto[1].sobremi.linkedinimg"></img>
+                                </a>
+                              </div>
                             </div>
                           </div>
                       </div>
@@ -275,7 +278,7 @@
                             </div>
                           </div>
                           <div class="card m-2 shadow-sm bg-light rounded" style="width: 14rem;">
-                            <label data-toggle="tooltip" data-placement="bottom" :title="obtenerTexto[6].referencias[2].persona2.trabajo">
+                            <label data-toggle="tooltip" data-placement="left" :title="obtenerTexto[6].referencias[2].persona2.trabajo">
                               <img :src="obtenerTexto[6].referencias[2].persona2.img" class="card-img-top">
                             </label>
                             <div class="card-body">
@@ -284,7 +287,7 @@
                             </div>
                           </div>
                           <div class="card m-2 shadow-sm bg-light rounded" style="width: 14rem;">
-                            <label data-toggle="tooltip" data-placement="bottom" :title="obtenerTexto[6].referencias[3].persona3.trabajo">
+                            <label data-toggle="tooltip" data-placement="top" :title="obtenerTexto[6].referencias[3].persona3.trabajo">
                               <img :src="obtenerTexto[6].referencias[3].persona3.img" class="card-img-top">
                             </label>
                             <div class="card-body">
