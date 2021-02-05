@@ -73,12 +73,12 @@
                           <div class="d-flex">
                             <div class="ml-auto row">
                               <div data-toggle="tooltip" data-placement="top" title="Github">
-                                <a :href="obtenerTexto[1].sobremi.github"> 
+                                <a :href="obtenerTexto[1].sobremi.github" target="_blank"> 
                                   <i id="rrss" class="fab fa-github-square fa-3x my-2"></i>
                                 </a> 
                               </div>
                               <div data-toggle="tooltip" data-placement="top" title="Linkedin">
-                                <a :href="obtenerTexto[1].sobremi.linkedin"> 
+                                <a :href="obtenerTexto[1].sobremi.linkedin" target="_blank"> 
                                   <i id="rrss" class="fab fa-linkedin fa-3x mx-4 my-2"></i>
                                 </a>
                               </div>
@@ -210,23 +210,28 @@
                             <img :src="obtenerTexto[7].proyectos[1].proyecto1.img" class="card-img-top " alt="...">
                             <div class="card-body ">
                               <h5 class="card-title">{{obtenerTexto[7].proyectos[1].proyecto1.nombre}}</h5>
-                              <a data-toggle="modal" data-target="#exampleModal" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                              <a data-toggle="modal" data-target="#proyecto1" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
                             </div>
                           </div>
-                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal fade" id="proyecto1" tabindex="-1" aria-labelledby="proyecto1Label" aria-hidden="true">
                             <div class="modal-dialog">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel">{{obtenerTexto[7].proyectos[1].proyecto1.nombre}}</h5>
+                                  <h5 class="modal-title" id="proyecto1Label">{{obtenerTexto[7].proyectos[1].proyecto1.nombre}}</h5>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
                                 </div>
                                 <div class="modal-body">
-                                  <p></p>
+                                  <div class="media">
+                                    <img id="modalimg" :src="obtenerTexto[7].proyectos[1].proyecto1.img2" class="mr-3 shadow-lg mb-5 bg-white rounded">
+                                    <div class="media-body">
+                                      <p class="mt-5">{{obtenerTexto[7].proyectos[1].proyecto1.descripcion}}</p>
+                                    </div>
+                                  </div>
                                 </div>
                                 <div class="modal-footer">
-                                  <a class="btn btn-primary" :href="obtenerTexto[7].proyectos[2].proyecto2.link">{{obtenerTexto[7].proyectos[0].texto.boton2}}</a>
+                                  <a class="btn btn-primary" :href="obtenerTexto[7].proyectos[1].proyecto1.link" target="_blank">{{obtenerTexto[7].proyectos[0].texto.boton3}}</a>
                                 </div>
                               </div>
                             </div>
@@ -235,14 +240,64 @@
                             <img :src="obtenerTexto[7].proyectos[2].proyecto2.img" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">{{obtenerTexto[7].proyectos[2].proyecto2.nombre}}</h5>
-                              <a :href="obtenerTexto[7].proyectos[2].proyecto2.link"  class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                              <a data-toggle="modal" data-target="#proyecto2" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="proyecto2" tabindex="-1" aria-labelledby="proyecto2Label" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="proyecto2Label">{{obtenerTexto[7].proyectos[2].proyecto2.nombre}}</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="modal-body">
+                                    <div class="media">
+                                      <img id="modalimg" :src="obtenerTexto[7].proyectos[2].proyecto2.img2" class="mr-3 shadow-lg mb-5 bg-white rounded">
+                                      <div class="media-body">
+                                        <p class="mt-5">{{obtenerTexto[7].proyectos[2].proyecto2.descripcion}}</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <a class="btn btn-primary" :href="obtenerTexto[7].proyectos[2].proyecto2.link" target="_blank">{{obtenerTexto[7].proyectos[0].texto.boton3}}</a>
+                                  <a class="btn btn-success" :href="obtenerTexto[7].proyectos[2].proyecto2.link2" target="_blank">{{obtenerTexto[7].proyectos[0].texto.boton2}}</a>
+                                </div>
+                              </div>
                             </div>
                           </div>
                           <div class="card m-3 shadow-sm bg-light rounded" style="width: 20rem;">
                             <img :src="obtenerTexto[7].proyectos[3].proyecto3.img" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">{{obtenerTexto[7].proyectos[3].proyecto3.nombre}}</h5>
-                              <a :href="obtenerTexto[7].proyectos[3].proyecto3.link" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                              <a data-toggle="modal" data-target="#proyecto3" class="btn btn-primary stretched-link">{{obtenerTexto[7].proyectos[0].texto.boton}}</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="proyecto3" tabindex="-1" aria-labelledby="proyecto3Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="proyecto3Label">{{obtenerTexto[7].proyectos[3].proyecto3.nombre}}</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="media">
+                                <img id="modalimg" :src="obtenerTexto[7].proyectos[3].proyecto3.img2" class="mr-3 shadow-lg mb-5 bg-white rounded">
+                                <div class="media-body">
+                                  <p class="mt-5">{{obtenerTexto[7].proyectos[3].proyecto3.descripcion}}</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <a class="btn btn-primary" :href="obtenerTexto[7].proyectos[3].proyecto3.link" target="_blank">{{obtenerTexto[7].proyectos[0].texto.boton3}}</a>
+                              <a class="btn btn-success" :href="obtenerTexto[7].proyectos[3].proyecto3.link2" target="_blank">{{obtenerTexto[7].proyectos[0].texto.boton2}}</a>
                             </div>
                           </div>
                         </div>

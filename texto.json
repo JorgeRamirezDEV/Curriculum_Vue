@@ -214,13 +214,16 @@
                         "titulo": "Proyectos",
                         "descripcion": "Aquí se encuentran los proyectos que he desarrollado",
                         "boton": "Más información",
-                        "boton2": "Ir al proyecto"
+                        "boton2": "Ir al proyecto",
+                        "boton3": "Ir al código"
                     }
                 },
                 {   
                     "proyecto1":{
                         "nombre": "Piedra, papel y tijera",
                         "img": "img/rockscissorpaper.png",
+                        "img2": "img/project1.png",
+                        "descripcion": "Un sencillo juego realizado en Javascript plano con el clásico juego del piedra, papel y tijera. Toda la información y código está en el github.",
                         "link": "https://github.com/JorgeRamirezDEV/Entorno-Cliente/tree/main/Projects/RockScissorPaper%20Game"
                     }
                 },
@@ -228,14 +231,20 @@
                     "proyecto2":{
                         "nombre": "Landing Page",
                         "img": "img/landingpage.png",
-                        "link": "https://github.com/JorgeRamirezDEV/ProyectoJQuery"
+                        "img2": "img/project2.png",
+                        "descripcion": "Un ejemplo de landing page donde usamos tecnologías CSS grid y JQuery para animaciones.",
+                        "link": "https://github.com/JorgeRamirezDEV/ProyectoJQuery",
+                        "link2": "https://jorgeramirezdev.github.io/ProyectoJQuery/"
                     }
                 },
                 {
                     "proyecto3":{
                         "nombre": "Wikidogs",
                         "img": "img/wikidogs.png",
-                        "link": "https://github.com/JorgeRamirezDEV/WikiDogs"
+                        "img2": "img/project3.png",
+                        "descripcion": "Práctica de uso de API's mediante peticiones Ajax en javascript plano.",
+                        "link": "https://github.com/JorgeRamirezDEV/WikiDogs",
+                        "link2": "https://jorgeramirezdev.github.io/WikiDogs/"
                     }
                 }
             ]
@@ -470,13 +479,16 @@
                         "titulo": "Projects",
                         "descripcion": "Here you have a little bit of everything I can offer",
                         "boton": "More Information",
-                        "boton2": "Go to project"
+                        "boton2": "Go to project",
+                        "boton3": "Show source code"
                     }
                 },
                 {   
                     "proyecto1":{
                         "nombre": "Rock, scissor & paper",
                         "img": "img/rockscissorpaper.png",
+                        "img2": "img/project1.png",
+                        "descripcion": "Here's a little game made on plain javascript, the typical game of rock, scissor and paper.",
                         "link": "https://github.com/JorgeRamirezDEV/Entorno-Cliente/tree/main/Projects/RockScissorPaper%20Game"
                     }
                 },
@@ -484,15 +496,20 @@
                     "proyecto2":{
                         "nombre": "Landing Page",
                         "img": "img/landingpage.png",
-                        "descripcion": "",
-                        "link": "https://github.com/JorgeRamirezDEV/ProyectoJQuery"
+                        "img2": "img/project2.png",
+                        "descripcion": "A practical example about how to make a Landing page using Grid CSS and JQuery.",
+                        "link": "https://github.com/JorgeRamirezDEV/ProyectoJQuery",
+                        "link2": "https://jorgeramirezdev.github.io/ProyectoJQuery/"
                     }
                 },
                 {
                     "proyecto3":{
                         "nombre": "Wikidogs",
                         "img": "img/wikidogs.png",
-                        "link": "https://github.com/JorgeRamirezDEV/WikiDogs"
+                        "img2": "img/project3.png",
+                        "descripcion": "A little test about the usage of API's on plain Javascript.",
+                        "link": "https://github.com/JorgeRamirezDEV/WikiDogs",
+                        "link2": "https://jorgeramirezdev.github.io/WikiDogs/"
                     }
                 }
             ]
