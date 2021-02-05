@@ -83,7 +83,7 @@
                       </div>
                       <div class="mt-5 shadow-sm p-3 mb-5 bg-white rounded border-bottom border-primary" id="section2">
                         <h1>{{obtenerTexto[2].experiencia[0].texto.titulo}}</h1>
-                        <h2>{{obtenerTexto[2].experiencia[0].texto.descripcion}}</h2>
+                        <p>{{obtenerTexto[2].experiencia[0].texto.descripcion}}</p>
                         <div class="media mt-5">
                           <img class="fotohabilidad mr-5" :src="obtenerTexto[2].experiencia[1].trabajo1.img">
                           <div>
@@ -107,7 +107,7 @@
                       </div>
                       <div class="mt-5 shadow-sm p-3 mb-5 bg-white rounded border-bottom border-primary" id="section3">
                         <h1>{{obtenerTexto[3].educacion[0].texto.titulo}}</h1>
-                        <h5 class="mb-5">{{obtenerTexto[3].educacion[0].texto.descripcion}}</h5>
+                        <p class="mb-5">{{obtenerTexto[3].educacion[0].texto.descripcion}}</p>
                         <table class="table table-hover d-none d-sm-block">
                           <thead>
                             <tr>
@@ -233,30 +233,30 @@
                             <h4>{{obtenerTexto[5].idiomas[0].texto.nivel}}{{obtenerTexto[5].idiomas[1].espanol.nombre}}</h4>
                             <a>{{obtenerTexto[5].idiomas[1].espanol.hablado}}</a>
                             <div class="progress" style="height: 20px; max-width: 400px;">
-                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <a>{{obtenerTexto[5].idiomas[1].espanol.leido}}</a>
                             <div class="progress" style="height: 20px; max-width: 400px;">
-                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <a>{{obtenerTexto[5].idiomas[1].espanol.escrito}}</a>
                             <div class="progress mb-3" style="height: 20px; max-width: 400px;">
-                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                           </div>
                           <div class="col-12 col-sm-6">
                             <h4>{{obtenerTexto[5].idiomas[0].texto.nivel}}{{obtenerTexto[5].idiomas[2].ingles.nombre}}</h4>
                             <a>{{obtenerTexto[5].idiomas[2].ingles.hablado}}</a>
                             <div class="progress" style="height: 20px; max-width: 400px;">
-                              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <a>{{obtenerTexto[5].idiomas[2].ingles.leido}}</a>
                             <div class="progress" style="height: 20px; max-width: 400px;">
-                              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <a>{{obtenerTexto[5].idiomas[2].ingles.escrito}}</a>
                             <div class="progress" style="height: 20px; max-width: 400px;">
-                              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                           </div>
                         </div>
